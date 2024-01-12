@@ -6,7 +6,7 @@ return {
             dotfiles = false,
         },
         view = {
-            adaptive_size = true,
+            adaptive_size = false,
         }
     }
 }
