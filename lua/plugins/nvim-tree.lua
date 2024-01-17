@@ -2,11 +2,13 @@ return {
     "nvim-tree/nvim-tree.lua",
     lazy = false,
     config = {
-        filters = {
-            dotfiles = false,
-        },
         view = {
             adaptive_size = false,
-        }
+        },
+        filters = {
+            git_ignored = true,
+            dotfiles = false,
+            git_clean = false,
+      },
     }
 }
